@@ -1,0 +1,27 @@
+import pandas as pd
+import matplotlib.pyplot as plt
+import os
+print(os.listdir())
+df=pd.read_csv("sales.csv")
+df["Date"]=pd.to_datetime(df["Date"],errors="coerce")
+df["Month"]=df["Date"].dt.month
+total_sales=df["Sales"].sum()
+print("Total Sales:",total_sales)
+product_sales=df.groupby("Product")["Sales"].sum()
+print("\nSales by product:\n",product_sales)
+monthly_sales=df.groupby("Month")["Sales"].sum()
+print("\nMonthly sales:\n",monthly_sales)
+plt.figure(figsize=(10,5))
+plt.subplot(1,2,1)
+plt.bar(product_sales.index,product_sales.values,color="blue")
+plt.title("Sales by Product")
+plt.xlabel("product")
+plt.ylabel("sales")
+plt.subplot(1,2,2)
+plt.plot(monthly_sales.index,monthly_sales.values,marker="o",color="red")
+plt.title("Monthly sales Trend")
+plt.xlabel("month")
+plt.ylabel("sales")
+plt.tight_layout()
+plt.savefig("product.png")
+plt.show()
