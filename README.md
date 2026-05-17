@@ -161,7 +161,7 @@ This project analyzes retail sales data using Python and visualization libraries
 This project helps understand sales performance and basic business insights through data analysis and visualization.
 
 
-#E-commerce Customer Behavior Analysis 
+# E-commerce Customer Behavior Analysis 
 
 This project focuses on analyzing customer behavior in an e-commerce platform using Python, Pandas, and Matplotlib.
 The analysis helps understand customer satisfaction, sales trends, payment preferences, delivery impact, and loyal customer behavior.
