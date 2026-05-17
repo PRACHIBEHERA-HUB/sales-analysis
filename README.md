@@ -349,7 +349,7 @@ python pandas matplotlib netflix-analysis data-analysis data-visualization eda p
 
 
 
-#Spotify Music Data Analysis 
+# Spotify Music Data Analysis 
 
 This project analyzes Spotify music data using Python, Pandas, and Matplotlib to discover trends in songs, artists, popularity, audio features, and listener preferences.
 The analysis includes data cleaning, visualization, and insights generation from Spotify track data.
