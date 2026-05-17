@@ -346,3 +346,104 @@ Add Recommendation System using ML
 ## GitHub Tags
 
 python pandas matplotlib netflix-analysis data-analysis data-visualization eda python-project
+
+
+
+#Spotify Music Data Analysis 
+
+This project analyzes Spotify music data using Python, Pandas, and Matplotlib to discover trends in songs, artists, popularity, audio features, and listener preferences.
+The analysis includes data cleaning, visualization, and insights generation from Spotify track data.
+
+## Project Objectives
+
+Analyze Spotify song and artist data
+Explore music popularity trends
+Study audio features like danceability and energy
+Identify top artists and songs
+Compare explicit vs non-explicit songs
+Visualize music insights using graphs
+
+## Technologies Used
+
+Python
+Pandas
+Matplotlib
+
+## Dataset Features
+
+The dataset includes:
+
+Track Name
+Artist
+Popularity
+Danceability
+Energy
+Duration
+Explicit Content
+Audio Features
+
+## Analysis Performed
+## Data Cleaning
+Removed duplicate records
+Cleaned column names
+Handled missing popularity values
+
+## Song & Artist Analysis
+
+Top 10 most popular songs
+Top artists by number of songs
+Top artists by average popularity
+
+## Audio Feature Analysis
+
+Danceability distribution
+Energy distribution
+Song duration analysis
+Correlation between numerical features
+
+## Explicit Content Analysis
+
+Explicit vs Non-explicit song comparison
+Pie chart visualization
+
+## Visualizations Included
+
+Bar Charts
+Histograms
+Pie Charts
+Correlation Analysis
+
+## Key Insights
+
+Some artists dominate Spotify with multiple popular tracks
+Highly danceable songs are more common in modern playlists
+Energy levels vary significantly across songs
+Explicit songs form a noticeable portion of the dataset
+Average song duration generally falls between 2–4 minutes
+
+## Sample Charts
+
+Top 10 Songs by Popularity
+Top Artists
+Danceability Distribution
+Energy Distribution
+Explicit vs Non-explicit Songs
+Artist Popularity Analysis
+
+## How to Run
+
+Install required libraries:
+pip install pandas matplotlib
+Run the Python script:
+python spotify_analysis.py
+
+## Future Improvements
+
+Add Spotify API Integration
+Create Interactive Dashboard
+Add Machine Learning Song Prediction
+Build Recommendation System
+
+## GitHub Tags
+
+python pandas matplotlib spotify-analysis music-data-analysis data-visualization eda python-project
