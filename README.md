@@ -159,3 +159,98 @@ This project analyzes retail sales data using Python and visualization libraries
 ## Conclusion
 
 This project helps understand sales performance and basic business insights through data analysis and visualization.
+
+
+#E-commerce Customer Behavior Analysis 
+
+This project focuses on analyzing customer behavior in an e-commerce platform using Python, Pandas, and Matplotlib.
+The analysis helps understand customer satisfaction, sales trends, payment preferences, delivery impact, and loyal customer behavior.
+
+## Project Objectives
+
+Analyze customer orders and sales performance
+Understand customer satisfaction levels
+Identify popular product categories
+Study delivery time impact on ratings
+Analyze return behavior
+Track monthly sales trends
+Detect loyal customers
+
+## Technologies Used
+
+Python
+Pandas
+Matplotlib
+
+## Dataset Features
+
+The dataset includes:
+
+Order ID
+Order Date
+Product Category
+Order Value
+Payment Method
+Customer Rating
+Delivery Time
+Return Status
+
+## Key Analysis Performed
+## Data Cleaning
+
+Removed extra spaces from column names
+Converted order dates into datetime format
+Checked missing values
+
+## Sales Analysis
+
+Total orders calculation
+Product category sales analysis
+Monthly sales trend visualization
+
+## Customer Insights
+
+Customer satisfaction classification
+Delivery time vs customer rating analysis
+Return behavior analysis
+Loyal customer identification
+
+## Visualization
+
+The project includes:
+
+Bar Charts
+Pie Charts
+Line Graphs
+
+## Insights Generated
+
+High delivery time can reduce customer ratings
+Certain product categories generate higher sales
+Payment method preferences vary among customers
+Loyal customers usually provide high ratings and higher order values
+
+## Sample Visualizations
+
+Sales by Product Category
+Payment Method Distribution
+Customer Satisfaction Levels
+Monthly Sales Trends
+
+## How to Run
+
+Install required libraries:
+pip install pandas matplotlib
+Run the Python script:
+python ecommerce_analysis.py
+
+## Future Improvements
+
+Add Power BI Dashboard
+Add Excel Dashboard
+Include Machine Learning Predictions
+Customer Segmentation Analysis
+
+## GitHub Tags
+
+python pandas matplotlib data-analysis ecommerce-analysis customer-behavior data-visualization
