@@ -254,3 +254,95 @@ Customer Segmentation Analysis
 ## GitHub Tags
 
 python pandas matplotlib data-analysis ecommerce-analysis customer-behavior data-visualization
+
+
+# Netflix Data Analysis 
+
+This project performs an in-depth analysis of Netflix content using Python, Pandas, and Matplotlib.
+The goal is to explore Netflix movies and TV shows, understand content trends, analyze genres, countries, ratings, and visualize important insights through graphs.
+
+## Project Objectives
+
+Analyze Netflix Movies and TV Shows
+Perform data cleaning and preprocessing
+Explore content growth over the years
+Identify top countries producing Netflix content
+Analyze popular genres and directors
+Visualize trends using charts and graphs
+
+## Technologies Used
+
+Python
+Pandas
+Matplotlib
+
+## Dataset Information
+
+The dataset contains:
+
+Title
+Type (Movie / TV Show)
+Director
+Cast
+Country
+Rating
+Duration
+Date Added
+Genres
+
+## Analysis Performed
+## Data Cleaning
+
+Removed duplicate records
+Filled missing values
+Converted date columns into datetime format
+Extracted year from date added column
+
+## Content Analysis
+
+Movies vs TV Shows comparison
+Netflix content growth by year
+Top countries with most content
+Content rating distribution
+Most popular genres
+Top directors on Netflix
+
+## Visualizations Included
+
+Bar Charts
+Line Graphs
+Trend Analysis Charts
+
+## Key Insights
+
+Movies are more common than TV Shows on Netflix
+Netflix content increased rapidly after 2015
+Some countries contribute significantly more content
+Drama and International genres are highly popular
+Certain directors have produced multiple Netflix titles
+
+## Sample Charts
+
+Movies vs TV Shows
+Netflix Content Added Over Years
+Top Countries by Content
+Top Genres on Netflix
+Most Active Directors
+
+## How to Run
+
+Install required libraries:
+pip install pandas matplotlib
+Run the Python file:
+python netflix_analysis.py
+
+## Future Improvements
+
+Add Power BI Dashboard
+Add Excel Dashboard
+Create Interactive Visualizations
+Add Recommendation System using ML
+
+## GitHub Tags
+
+python pandas matplotlib netflix-analysis data-analysis data-visualization eda python-project
