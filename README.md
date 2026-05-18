@@ -447,3 +447,56 @@ Build Recommendation System
 ## GitHub Tags
 
 python pandas matplotlib spotify-analysis music-data-analysis data-visualization eda python-project
+
+
+
+
+
+# YouTube Trending Videos Data Analysis
+
+A complete Data Analysis Project using Python, Pandas, Matplotlib, and Excel to analyze YouTube trending videos data.
+This project focuses on data cleaning, trend analysis, visualization, and engagement insights without using Machine Learning.
+
+## Features
+
+Data Cleaning & Preprocessing
+Views, Likes & Comments Analysis
+Top Categories by Views
+Top Channels by Likes
+Country-wise Trending Videos Analysis
+Monthly Trending Trends
+Top 10 Most Viewed Videos
+Engagement Rate Analysis
+Data Visualization using Matplotlib
+Excel-friendly workflow
+
+## Technologies Used
+
+Python
+Pandas
+Matplotlib
+Excel
+
+## Insights Generated
+
+Most popular video categories
+Highest liked channels
+Trending video distribution by country
+Monthly publishing trends
+Videos with highest engagement rates
+
+## Project Goal
+
+To perform Exploratory Data Analysis (EDA) on YouTube trending videos data and extract meaningful insights using Python.
+
+## Skills Demonstrated
+
+Data Cleaning
+Data Analysis
+Data Visualization
+Exploratory Data Analysis (EDA)
+Python Programming
+
+## Output
+
+The project generates multiple charts and insights that help understand YouTube trending patterns and audience engagement.
